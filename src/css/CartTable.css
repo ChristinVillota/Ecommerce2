@@ -1,0 +1,26 @@
+.products-table {
+    border-spacing: 2px;
+    background: #f2f2f2;
+    box-shadow: 1 2px 2 2 rgba(14, 116, 233, 0.05);
+  }
+  
+.products-table-cell {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+.products-table-header {
+  background: black;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.text-title {
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  margin: 0.2rem 0.5rem 0.2rem 0;
+}
