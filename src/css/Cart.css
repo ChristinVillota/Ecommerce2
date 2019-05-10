@@ -1,10 +1,95 @@
-.container {
-    margin-top: 10px;
-    text-align: center;
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    height: 80%;
+    padding: 20px 20px 20px 50px;
 }
+.column {
+  background-color: rgb(250, 242, 249);
+}
+.btn-btn{
+    padding-top: 175px;
+    color: black;
+}
+.text-cart {
+    font-family: 'Oswald', sans-serif !important;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
 
-.purchase-card{
-width: 350px;
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-padding: 1em
-}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #424242e5;
+    box-sizing: border-box;
+  
+  }
+  
+  /* Set a style for all buttons */
+  /* button {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+  
+  } */
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 15;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 20x;
+    
+  }
+  
+  
+  
+  /* Style all input fields */
+  
+  /* Style the submit button */
+  input[type=button] {
+    background-color: Black;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #d8d4d4;
+    padding: 100px;
+  }
+  
+        
+    
+     * {
+              box-sizing: border-box;
+              
+          }
+  
+          /* Create two equal columns that floats next to each other */
+          .column {
+              float: left;
+              margin-left: 150px;
+              width: 30%;
+              padding: 5px;
+              height: 300px;
+              border: 1px solid #3a3a3a;
+              /* Should be removed. Only for demonstration */
+          }
+  
+          /* Clear floats after the columns */
+          .row:after {
+              content: "";
+              display: table;
+              clear: both;
+              
+          }

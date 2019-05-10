@@ -22,6 +22,9 @@ export default class Navbar extends Component {
     <Link to="/products" className="nav-link">
     Products
     </Link>
+    {/* <Link to="/paymentmethod" className="nav-link">
+    Payment 
+    </Link> */}
     </li>
     </ul>
     <Link to='/cart' className="ml-auto">
